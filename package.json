@@ -1,8 +1,12 @@
 {
   "name": "impulsionamento-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "git@github.com:filipecancio/impulsionamento-nodejs.git",
   "author": "Cancio <filipe.cancio@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
